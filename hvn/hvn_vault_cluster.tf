@@ -14,7 +14,7 @@ resource "hcp_vault_cluster" "hashiconf24" {
   public_endpoint = true
 
   ip_allowlist {
-    address = "76.131.179.73"
+    address = "76.131.179.73/32"
     description = "my public IP"
   }
   lifecycle {
