@@ -8,3 +8,4 @@ variable "hvn_client_secret" {
   description = "hvn client secret for hashiconf24"
   sensitive   = true
 }
+

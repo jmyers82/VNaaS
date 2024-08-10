@@ -7,7 +7,7 @@ resource "vault_jwt_auth_backend" "jwt_backend" {
 }
 
 resource "vault_policy" "jwt_policy" {
-  name = "platform-team"
+  name = "tfc-policy"
 
   policy = file("${path.module}/policies/tfc-policy.hcl")
 }
